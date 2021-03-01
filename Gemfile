@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.3'
+ruby '2.6.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0'
+gem 'rails', '~> 6.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.2', '< 2.0'
 # Use Puma as the app server
@@ -23,7 +23,7 @@ gem 'puma', '~> 4.3'
 gem 'bootsnap', '~> 1.4', require: false
 
 gem 'graphql', '~> 1.10', '>= 1.10.9'
-gem "graphql-preload", git: "git://github.com/Envek/graphql-preload.git"
+gem "graphql-preload", git: "https://github.com/Envek/graphql-preload.git"
 gem "graphiql-rails", "~> 1.7"
 
 gem 'devise', "~> 4.7"
